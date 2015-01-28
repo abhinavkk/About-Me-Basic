@@ -1,0 +1,199 @@
+body {
+	margin: 0px;
+	overflow-x:hidden;
+}
+.main {  
+	color: white; 
+	font-size: 1.5em;
+	height: 550px;
+	background-image: url(./etwbwBn.png);
+	background-size: 1000pt;
+}
+#name {
+	padding-top: 120px;
+	padding-left: 529px;
+	font-family: monospace;
+}
+#heading {
+	position: relative; 
+	top: 403px; 
+	background-color: #F52727;
+    font-family: monospace;
+}
+#list1 {
+	width:1230;
+	list-style-type: none;
+	list-style-position: outside;
+	text-align:center;
+	display:inline-block; 
+	position: relative; 
+	top:-20;left:114;
+}
+.first {
+	width: 400px;
+}
+.second {
+	text-decoration: none; 
+    color: #5535B2;
+}
+#li1 {
+	position: absolute; top: 8px; 
+}
+#li2 {
+	position: absolute; top: 8px; left: 220px;
+}
+#li3 {
+	position: absolute; top: 8px; left: 440px;
+}
+#li4 {
+	position: absolute; top: 8px; left: 660px;
+}
+hr.start {
+	color: black; border-width: 1px;
+    border-style: solid;
+    -webkit-margin-before: 0em; 
+	-webkit-margin-after: 0em;
+	-webkit-margin-start: 0em;
+	-webkit-margin-end: 0em;
+}
+#base {
+	background-image: url(./wa.jpg);
+    background-size: 2763px;
+}
+#AboutMe {
+    position:relative; top:37px; height:500px
+}
+h1 {
+	text-align: center; color:black; 
+	-webkit-margin-before:0em; 
+	-webkit-margin-after:0em; padding-top:30px; 
+	font-family:cursive; color: rgb(60,8,74)
+}
+hr {
+	color:rgba(73, 92, 16, 1); -webkit-margin-before:0em; 
+	border-style:solid;
+	-webkit-margin-start:155px;-webkit-margin-end:155px;
+}
+#p1 {
+	width: 600px; margin-left:25px; font-family: cursive;
+	-webkit-margin-before:50px;-webkit-margin-after: 14px;
+}
+#p2 {
+	position:relative; top: -290px; left: 645px; 
+	font-family: cursive; 
+	width: 600px;margin-right:25px;
+}
+.link2 {
+	text-decoration: none; color: #0E662D
+}
+#res {
+	padding-bottom:5px; -webkit-margin-before: 50;
+}
+#res2 {
+	margin-left:25px; -webkit-margin-after:0px; 
+	font-weight:bold; position:relative; top:30px;
+}
+#res hr {
+	color:black; -webkit-margin-before:0em; border-style:solid;
+	-webkit-margin-start:25px;-webkit-margin-end:25px;
+	 position:relative; top:27px;
+}
+#res3 {
+	margin-left:30px;
+}
+#res3 h4 {
+	-webkit-margin-after:0px; position: relative; top:18px;
+}
+#respond {
+	-webkit-margin-before: 50;
+	}
+#respond h2 {
+	text-align: center; color:black; 
+	-webkit-margin-before:0em; 
+	-webkit-margin-after:0em; padding-top:30px;
+	font-family:cursive; color: rgb(208, 83, 18); 
+	position:relative; top:-15px; -webkit-margin-before: 50;
+}
+form {
+	margin-left:108px; -webkit-margin-after:0px;
+}
+form.forms {
+	position:relative; float:right;
+}
+#imgform {
+	position: relative; float:right;
+	width:766px; height: 250px; margin-right: 25px;
+}
+form p {
+	font-family: cursive;
+}
+#submit {
+	argin-left:52px; position:relative; top:-7px;
+}
+#contactme {
+	background-color: rgb(247,247,250);
+}
+.sp1 {
+	width=700px;
+}
+.p1 {
+	font-family:sans-serif;  margin-left:25px; 
+	text-align:center;
+    position:relative; top:35px; font-size:x-large;
+}
+.p2 {
+    position:relative; top: 15px; 
+    text-align:center; font-size:20px;
+}
+.im1 {
+	position: relative; height: 25px; left: 612px; 
+	top: -4px;
+}
+.im2 {
+	position:relative; left: 626px; height: 33px;
+}
+.div1 {
+	background-color:black
+}
+.para {
+	text-align:right; color:yellow; -webkit-margin-after:0px; 
+	font-size:60px; font-weight:lighter;
+}
+.bold {
+	font-weight: 900;
+}
+.para2 {
+	text-align:right; color:white; -webkit-margin-before:0px; 
+	font-size:60px; -webkit-margin-after: 0px;
+}
+#bday {
+	height: 40px;
+	color: white;
+	background-color: red;
+	font-size: 25px;
+	z-index:100;
+	width: 1286px;
+	position: fixed;
+}
+#countdown {
+	width: 400px;
+	float:right;
+	text-align: right;
+	padding-right: 20px;
+	height: 35px;
+	padding-top: 5px;
+	background-color: rgb(128, 127, 110);
+}
+#bdaynotice{
+	width: 350px;
+	border-right: solid 5px black;
+	text-align: right;
+	margin-right: 5px;
+	height: 35px;
+	padding-top: 5px;
+	position: relative;
+	left: 491px;
+	padding-right: 20px;
+	background-color: rgb(83, 83, 86);
+
+}

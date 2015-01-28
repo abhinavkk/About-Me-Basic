@@ -1,0 +1,93 @@
+<!Doctype>
+<html meta charset="utf-8">
+<head>
+<link rel="styesheet" type="text/css" href="style1.css">
+<title>Yo buoy!</title>
+</head>
+<body style="margin:0px;">
+  <div class="main" style="color: white; font-size: 1.5em; height: 550px; background-image: url(./etwbwBn.png);	background-size: 1000pt;">
+    <div id="name" style="padding-top:120; padding-left: 529; font-family: monospace;">	
+     ABHINAV KAUSHAL KESHARI
+    </div> 
+      <div id="heading" style="position: relative; top: 403px; background-color: #F52727; font-family: monospace;">
+        <ul id="list1" style="width:1230;list-style-type: none;list-style-position: outside;text-align:center;display:inline-block; position: relative; top:-20;left:114;"> 
+         <li class="first" id="li1" style="position: absolute; top: 8px; width: 400px;"><a href="#AboutMe" class="second" style="text-decoration: none;  color: #5535B2;">About Me</a></li>
+         <li class="first" id="li2" style="position: absolute; top: 8px; left: 220px; width: 400px;"><a href="#resume" class="second" style="text-decoration: none;  color: #5535B2;">Resume</a></li>
+         <li class="first" id="li3" style="position: absolute; top: 8px; left: 440px; width: 400px;"><a href="#respond" class="second" style="text-decoration: none;  color: #5535B2;">Respond</a></li>
+         <li class="first" id="li4" style="position: absolute; top: 8px; left: 660px; width: 400px;"><a href="#contactme" class="second" style="text-decoration: none;  color: #5535B2;">Contact Me</a></li>
+        </ul>   
+      <hr class="start" style="color: black; border-width: 1px; border-style: solid; -webkit-margin-before: 0em; -webkit-margin-after: 0em;">     
+      </div>
+   </div>
+   <div id="base" style="background-image: url(./wa.jpg); background-size: 2438px;">
+   <div>
+    <div  style="position:relative; top:37px; height:500px" id="AboutMe">
+      <h1 style="text-align: center; color:black; -webkit-margin-before:0em; -webkit-margin-after:0em; padding-top:30px; font-family:cursive; color: rgb(60,8,74)">About Me</h1>
+      <hr style="color:rgba(73, 92, 16, 1); -webkit-margin-before:0em; border-style:solid;-webkit-margin-start:155px;-webkit-margin-end:155px;">
+      <p id="p1" style="width: 600px; margin-left:25px; font-family: cursive;-webkit-margin-before:50px;-webkit-margin-after: 14px;">I am Abhinav Kauhsal Keshari, currently I am a first year undergrad pursuing Electronics and Communication Engineering in <a href="http://www.iitr.ac.in/" class="link2" target="_blank" style="text-decoration: none; color: #0E662D">IIT Roorkee</a>.<br/><br/>Programming has been always an area of interest to me. Currently I am working on my web designing and software development skills. Latest technology innovations always entice me and I am always keen to know what is going around the world in the technical area.<br/><br/>I am a big fan of cricket and regularly follow all the matches (especially of India). I love to play cricket (for obvious reasons), badminton and table tennis. Listening to music is one of the most important thing that I do to refresh my mind giving me an extra energy from somewhere.
+      </p>
+      <p id="p2" style="position:relative; top: -290px; left: 645px; font-family: cursive; width: 600px;margin-right:25px;">Presently, I am a programmer in <a href="https://sdslabs.co.in" class="link2" target="_blank" style="text-decoration: none; color: #0E662D">SDSLabs</a>.<br/><br/>I live in New Delhi and I graduated from my school, DPS Vasant Kunj, in 2014 which followed CBSE curriculum.<br/><br/> I love to play Counter Strike and cards with my friends. Going to the canteen late in the night with my friends gives a beautiful feeling and gives me a chance to execute my hobby of eating too much. </p>
+    </div>
+    <div id="resume">
+    <h1 style="text-align: center; color:black; -webkit-margin-before:0em; -webkit-margin-after:0em; padding-top:30px; font-family:cursive; color: rgb(60,8,74)">Resume</h1>
+      <hr style="color:rgba(73, 92, 16, 1); -webkit-margin-before:0em; border-style:solid;-webkit-margin-start:155px;-webkit-margin-end:155px;">
+      <div id="res" style=" padding-bottom:5px; -webkit-margin-before: 50;"> 
+        <p id="res2" style="margin-left:25px; -webkit-margin-after:0px; font-weight:bold; position:relative; top:30px;">ABHINAV KAUSHAL KESHARI</p> 
+        <hr style="color:black; -webkit-margin-before:0em; border-style:solid;-webkit-margin-start:25px;-webkit-margin-end:25px; position:relative; top:27px;"> 
+        <div id="res3" style="margin-left:30px;"><h4 style="-webkit-margin-after:0px; position: relative; top:18px;">Contact Information: </h4>
+         <p>CG-176, Rajendra Bhawan IIT Roorkee, Roorkee, Uttarakhand - 247667, India<br/>Mobile: 8375062546,8006562882<br/>E-mail: keshariabhinavk1996@gmail.com<br/></p>
+         <h4 style="-webkit-margin-after:0px; position: relative; top:18px;">Education: </h4>
+         <ul><li>B.Tech, Electronics and Communication Engineering (2014-2018), Indian Institute of Technology Roorkee<br/>CGPA-9.9/10</li>
+         <li>Class XII, Delhi Public School Vasant Kunj<br/>Percentage-97.6%</li></ul>
+         <h4 style="-webkit-margin-after:0px; position: relative; top:18px;">Achievements: </h4>
+         <ul><li>Selected for the prestigious Kishore Vaigyanik Protsahan Yojana (KVPY) Fellowship 2014</li>
+         <li>CBSE Merit Award for topping in Physics and Chemistry in Board Exam (2014)</li>
+         <li>All India Rank 34 in National Cyber Olympiad (2009)</li>
+         <li>All India Rank 51 in International Informatics Olympiad (2010)</li></ul>
+         <h4 style="-webkit-margin-after:0px; position: relative; top:18px;">Technical Skills: </h4>
+         <ul><li>C++</li><li>Visual Basic</li><li>HTML</li><li>CSS</li></ul>
+         <h4 style="-webkit-margin-after:0px; position: relative; top:18px;">Languages Known: </h4>
+         <ul><li>English</li><li>Hindi</li><li>French</li></ul>
+         <h4 style="-webkit-margin-after:0px; position: relative; top:18px;">Work Experience: </h4>
+         <ul><li>Programmer in SDSLabs (Software Development Section of IIT Roorkee)</li><li>Programmer in Code Warriors (Technical Group of DPS Vasant Kunj)</li></ul>
+
+        </div>
+      </div>
+    </div> 
+    <div id="respond" style="-webkit-margin-before: 50;">
+      <h1 style="text-align: center; color:black; -webkit-margin-before:0em; -webkit-margin-after:0em; padding-top:30px; font-family:cursive; color: rgb(60,8,74)">Respond</h1>
+      <hr style="color:rgba(73, 92, 16, 1); -webkit-margin-before:0em; border-style:solid;-webkit-margin-start:155px;-webkit-margin-end:155px;">
+      <h2 style="text-align: center; color:black; -webkit-margin-before:0em; -webkit-margin-after:0em; padding-top:30px; font-family:cursive; color: rgb(208, 83, 18); position:relative; top:-15px; -webkit-margin-before: 50;">Provide Your Feedback</h2>
+    <form method="get" style="margin-left:108px; -webkit-margin-after:0px;">
+        <div class="forms" style="position:relative; float:right;"><img src="feedb.jpg" id="imgform" position="relative" float="right" style="width:766px; height: 250px; margin-right: 25px;"></div>
+        <p style="font-family: cursive;">Your Name: <input type="text" name="fname" size="25"></p>
+        <p style="font-family: cursive;">Your email: <input type="text" name="email" size="25"></p>
+        <p style="font-family: cursive;">Rate the webpage: <br/>
+        <input type="radio" name="group1" checked >*****
+        <input type="radio" name="group1">****
+        <input type="radio" name="group1">***
+        <input type="radio" name="group1">**
+        <input type="radio" name="group1">*</p>
+        <p style="font-family: cursive;">Remarks: <br/><textarea name="remark" rows="4" col="50"></textarea></p>
+        <input type="submit" value="Submit" id="submit" style="margin-left:52px; position:relative; top:-7px;">
+    </form>    
+    </div>
+   </div>
+   <div id="contactme" style="background-color: rgb(247,247,250); ">
+      <h1 style="text-align: center; color:black; -webkit-margin-before:0em; -webkit-margin-after:0em; padding-top:30px; font-family:cursive; color: rgb(60,8,74)">Contact Me</h1>
+      <span class="sp1" style="width=700px;">
+        <hr style="color:rgba(73, 92, 16, 1); -webkit-margin-before:0em; border-style:solid;-webkit-margin-start:155px;-webkit-margin-end:155px;webkit-margin-after:0px">
+        <p class="p1" style="font-family:sans-serif;  margin-left:25px; text-align:center; position:relative; top:35px; font-size:x-large;">Email me for any queries or if you have any good idea, and let's create something amazing!</p>
+        <p class="p2" style="position:relative; top: 15px; text-align:center; font-size:20px;">keshariabhinavk1996@gmail.com</p>
+        <a href="https://www.facebook.com/abhinav.k.keshari" target="_blank"><img src="1271084_10152203108461729_809245696_o.png" class="im1" style="position: relative; height: 25px; left: 612px; top: -4px;"></a>
+        <a href="https://github.com/abhinavkk" target="_blank"><img src="1401899069_icon-social-github.png.pagespeed.ce.9q-VqlziWOwj-QrBEXS6.png" class="im2" style="position:relative; left: 626px; height: 33px;"></a>
+        <div class="div1" style="background-color:black">
+          <p class="para" style="text-align:right; color:yellow; -webkit-margin-after:0px; font-size:60px; font-weight:lighter;">[<bold style="font-weight: 900;">contact</bold>me]</p>
+          <p class="para2" style="text-align:right; color:white; -webkit-margin-before:0px; font-size:60px; -webkit-margin-after: 0px;">shoot me an email</p>
+        </div>  
+      </span>  
+    </div> 
+   </div> 
+   </div>
+</body>
+</html>

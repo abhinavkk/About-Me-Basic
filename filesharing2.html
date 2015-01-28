@@ -1,0 +1,44 @@
+<!Doctype>
+<html>
+<head meta charset="utf-8">
+<link rel="stylesheet" href="fileshare2.css">
+<title>Welcome</title>
+</head>
+<body>
+<div id="head">
+    <span id="name"><strong>F</strong>ile<strong>S</strong>hare</span> 
+</div> 
+<div id="main">  
+<h>WELCOME! Share your files and get access to the files shared by users from around the world</h><br/><br/>
+<div id="main2">
+<form enctype="multipart/form-data" action="../upload.php" method="post">
+<input type="text" placeholder="Enter your username" name="username"><br/><br/>
+<input type="hidden" name="MAX_FILE_SIZE" value="2000000">
+<input type="file" class="file" name="file" placeholder="Enter your file"><br/><br/>
+<input type="submit" value="Upload Your File" name="submit">
+</form>
+<?php
+include 'library/config.php';
+include 'library/opendb.php';
+
+$query = "SELECT id, name FROM upload";
+$result = mysql_query($query) or die('Error, query failed');
+if(mysql_num_rows($result) == 0)
+{
+echo "Database is empty <br>";
+}
+else
+{
+while(list($id, $name) = mysql_fetch_array($result))
+{
+?>
+<a href="download.php?id=<?php=$id;?>"><?php=$name;?></a> <br>
+<?php
+}
+}
+include 'library/closedb.php';
+?>
+</div>
+</div>
+</body>
+</html>
