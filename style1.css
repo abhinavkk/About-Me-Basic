@@ -124,8 +124,23 @@ form.forms {
 	position: relative; float:right;
 	width:766px; height: 250px; margin-right: 25px;
 }
-form p {
+p {
 	font-family: cursive;
+}s
+form {
+	font-family: cursive;
+	width: 500px;
+	background-color: rgba(158, 156, 156, 0.93);
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	box-shadow: 3px 3px 10px rgb(6, 25, 27);
+	margin-right: 398px;
+	margin-left: 398px;
+	height: 350px;
+	font-size: 20px;
+	-webkit-margin-after: 12px;
+
 }
 #submit {
 	argin-left:52px; position:relative; top:-7px;
